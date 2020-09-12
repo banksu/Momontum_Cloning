@@ -1,0 +1,24 @@
+body {
+  background-color: whitesmoke;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+h1 {
+  color: olive;
+  transition: color 0.5s ease-in-out;
+}
+.cliked {
+  color: tomato;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
