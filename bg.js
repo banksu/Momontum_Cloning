@@ -9,7 +9,7 @@ function paintImage() {
   image.src = "https://source.unsplash.com/random";
   image.classList.add("bgImage");
   body.prepend(image);
-  image.addEventListener("load", handleImageLoad);
+  image.addEventListener("loadend", handleImageLoad);
 }
 
 function init() {
