@@ -1,5 +1,5 @@
 body {
-  background-color: dimgray;
+  background-color: black;
 }
 
 .btn {
@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  color: olive;
+  color: whitesmoke;
   transition: color 0.5s ease-in-out;
 }
 .cliked {
@@ -21,6 +21,7 @@ h1 {
 
 .showing {
   display: block;
+  color: whitesmoke;
 }
 
 @keyframes fadeIn {
@@ -40,4 +41,8 @@ h1 {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.8s linear;
+}
+
+.js-toDoList {
+  color: whitesmoke;
 }
